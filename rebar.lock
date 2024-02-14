@@ -1,14 +1,21 @@
-{"1.1.0",
-[{<<"cowboy">>,{pkg,<<"cowboy">>,<<"2.6.3">>},0},
- {<<"cowlib">>,{pkg,<<"cowlib">>,<<"2.7.3">>},1},
- {<<"hdr_histogram">>,{pkg,<<"hdr_histogram">>,<<"0.5.0">>},0},
- {<<"jsone">>,{pkg,<<"jsone">>,<<"1.5.0">>},0},
- {<<"ranch">>,{pkg,<<"ranch">>,<<"1.7.1">>},1}]}.
+{"1.2.0",
+[{<<"cowboy">>,{pkg,<<"cowboy">>,<<"2.11.0">>},0},
+ {<<"cowlib">>,{pkg,<<"cowlib">>,<<"2.12.1">>},1},
+ {<<"hdr_histogram">>,
+  {git,"https://github.com/HdrHistogram/hdr_histogram_erl.git",
+       {ref,"39991d346382e0add74fed2e8ec1cd5666061541"}},
+  0},
+ {<<"jsone">>,{pkg,<<"jsone">>,<<"1.8.1">>},0},
+ {<<"ranch">>,{pkg,<<"ranch">>,<<"1.8.0">>},1}]}.
 [
 {pkg_hash,[
- {<<"cowboy">>, <<"99AA50E94E685557CAD82E704457336A453D4ABCB77839AD22DBE71F311FCC06">>},
- {<<"cowlib">>, <<"A7FFCD0917E6D50B4D5FB28E9E2085A0CEB3C97DEA310505F7460FF5ED764CE9">>},
- {<<"hdr_histogram">>, <<"CC955A94AD581D43D256AE89CA90F8C133F6F8FC196E336E1F3EEADAD36FC2E8">>},
- {<<"jsone">>, <<"410F5208BCAE541BF941B3F2756E5BB5A4C8694D7FFD6B34B909AE88262629C0">>},
- {<<"ranch">>, <<"6B1FAB51B49196860B733A49C07604465A47BDB78AA10C1C16A3D199F7F8C881">>}]}
+ {<<"cowboy">>, <<"356BF784599CF6F2CDC6AD12FDCFB8413C2D35DAB58404CF000E1FEAED3F5645">>},
+ {<<"cowlib">>, <<"A9FA9A625F1D2025FE6B462CB865881329B5CAFF8F1854D1CBC9F9533F00E1E1">>},
+ {<<"jsone">>, <<"6BC74D3863D55D420077346DA97C601711017A057F2FD1DF65D6D65DD562FBAB">>},
+ {<<"ranch">>, <<"8C7A100A139FD57F17327B6413E4167AC559FBC04CA7448E9BE9057311597A1D">>}]},
+{pkg_hash_ext,[
+ {<<"cowboy">>, <<"0FA395437F1B0E104E0E00999F39D2AC5F4082AC5049B67A5B6D56ECC31B1403">>},
+ {<<"cowlib">>, <<"163B73F6367A7341B33C794C4E88E7DBFE6498AC42DCD69EF44C5BC5507C8DB0">>},
+ {<<"jsone">>, <<"C78918124148C51A7A84C678E39BBC6281F8CB582F1D88584628A98468E99738">>},
+ {<<"ranch">>, <<"49FBCFD3682FAB1F5D109351B61257676DA1A2FDBE295904176D5E521A2DDFE5">>}]}
 ].
